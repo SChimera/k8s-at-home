@@ -1,0 +1,13 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        node1:
+          ansible_user: schimera
+          ansible_host: 192.168.0.188
+    worker:
+      hosts:
+        node2:
+          ansible_user: schimera
+          ansible_host: 192.168.0.220
