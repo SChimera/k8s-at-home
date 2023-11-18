@@ -377,6 +377,10 @@ data:
         enableAdminAPI: true
         walCompression: true
         retentionSize: 8GB
+        podMonitorNamespaceSelector: {}
+        podMonitorSelector:
+          matchLabels:
+            app.kubernetes.io/instance: monitoring
         storageSpec:
           volumeClaimTemplate:
             spec:
