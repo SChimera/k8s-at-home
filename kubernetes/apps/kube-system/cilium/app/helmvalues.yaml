@@ -95,4 +95,4 @@ data:
     rollOutCiliumPods: true
     securityContext:
       privileged: true
-    routingMode=native
+    routingMode: native
